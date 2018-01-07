@@ -1,0 +1,18 @@
+.form-control {
+    position: relative;
+
+}
+.has-error {
+    position: relative;
+    color:red;
+    body-color: red;
+}
+.has-error > .form-control{
+    border-color: red;
+}
+.help-block {
+    position: absolute;
+    right: 13px;
+    font-size: 15px;
+
+}
